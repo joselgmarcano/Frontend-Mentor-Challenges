@@ -10,13 +10,13 @@ This is a solution to the <a href='https://www.frontendmentor.io/challenges/reci
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+<!--- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#acknowledgments)-->
 
 <h2 id='overview'>Overview</h2>
 <h3 id='the-challenge'>The Challenge</h3>
