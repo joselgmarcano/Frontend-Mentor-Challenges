@@ -22,4 +22,7 @@ This is a solution to the <a href='https://www.frontendmentor.io/challenges/reci
 <h3 id='the-challenge'>The Challenge</h3>
 The challenge was to create a recipe page using HTML and CSS in such a way that it was as close as possible to the original style. I took the opportunity to use an HTML header and semantics template I created for all future projects. I also used a template of CSS elements that will always be repeated.
 <h3 id='screenshot'>Screenshot</h3>
-<img src='Recipe-Page/desktop-design.png'>
+<img src='[Recipe-Page/desktop-design.png](https://github.com/joselgmarcano/Frontend-Mentor-Challenges/blob/main/Recipe-Page/desktop-design.png)' alt='Recipe Page Screenshot'>
+<h3>Link</h3>
+To view the full page:
+<a href='https://codepen.io/joselgmarcano/full/KKLepwL'>AQUÍ</a>
