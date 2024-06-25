@@ -1,0 +1,292 @@
+/*===============VARIABLES CSS===============*/
+
+:root{
+    /*===============COLORES HEXADECIMALES===============*/
+    --body-color: #f3e6d8;
+    --second-bg-color: #FFF5FA ;
+    --second-body-color: #faeef5 ;
+    --sub-title-color-h2: #422523;
+    --sub-title-color-h3: #7b284f;
+    --text-color: #302d2c;
+
+
+    /*===============FUENTES Y TIPOGRAFÍA===============*/
+    --body-font: "Outfit", sans-serif; /*Cambiar por la fuente seleccionada para los párrafos*/;
+    --title-font: 'Young Serif', sans-serif; /*Cambiar por la fuente seleccionada para los encabezados*/;
+
+    /*===============TAMAÑOS DE LAS FUENTES===============*/
+    --biggest-font-size: 4.8rem;
+    --h1-font-size: 3.6rem
+    --h2-font-size: 2.4rem;
+    --h3-font-size: 2rem;
+    --text-font-size: 1.6rem;
+    --small-font-size: 1.4rem;
+    --smaller-font-size: 1.2rem;
+
+    /*===============PESOS DE LAS FUENTES===============*/
+    --font-medium: 500;
+    --font-bold: 700;
+
+    /*===============MÁRGENES INFERIORES===============*/
+    --mb-0-25: .4rem;
+    --mb-0-5: .8rem;
+    --mb-0-75: 1.2rem;
+    --mb-1: 1.6rem;
+    --mb-1-5: 2.4rem;
+    --mb-2: 3.2rem;
+    --mb-2-5: 4.0rem;
+    --mb-3: 4.8rem;
+
+    /*===============Z-INDEX===============*/
+    --z-fixed: 10;
+    --z-modal: 100;
+}
+
+/*===============GENERAL===============*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input{
+    font-family: var(--body-font);
+    font-size: var(--text-font-size);
+}
+
+
+body{
+    font-size: 16px; /*1rem = 10px*/
+    background: var(--body-color);
+    color: var(--text-color);
+}
+
+h1 {
+    font-family: var(--title-font);
+    color: var(--text-color);
+    font-weight: var(--font-bold);
+}
+
+h2{
+    color: var(--sub-title-color-h2);
+}
+
+h3 {
+    color: var(--sub-title-color-h3);
+}
+
+p{
+    line-height: 130%;
+    color: var(--text-color);
+}
+
+u{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: var(--main-color);/*Cambiar por el color adecuado*/
+}
+
+a:visited{
+    color: var(--second-main-color);/*Cambiar por el color adecuado*/
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+button,
+input{
+    border: none;
+    outline: none;
+}
+/*==================================PÁGINA INICIO===================================*/
+
+/*===============HEADER===============*/
+section.recipe{
+    padding: 3rem;
+    margin: 10rem 38rem;
+    background-color: var(--second-bg-color);
+    border-radius: 1.5rem;
+}
+
+img{
+    border-radius: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+h2{
+    font-family: var(--title-font);
+    font-weight: 400;
+    margin: 5rem 0 1.5rem 0rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+div.preparation{
+    background-color: var(--second-body-color);
+    border-radius: 1.5rem;
+    margin: 5rem 0 1.5rem;
+}
+
+div.container{
+    padding: 1.2rem;
+}
+
+ul, ol{
+    margin: 1rem 0 1.5rem 4rem;
+}
+
+ul li{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+li span{
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+hr{
+    border-width: thin;
+    border-color: #f8f8f8;
+    margin: 5rem 0 1.5rem 2rem;
+}
+
+ol li{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+tr{
+    border-bottom: 1px solid #ddd;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+td{
+    padding: 8px;
+}
+
+td:nth-child(2) {
+    color: #7b284f;
+    font-weight: 600;
+}
+
+/* Media Queries */
+
+/* Pantallas medianas (tablets, entre 768px y 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    :root {
+        --biggest-font-size: 4.4rem;
+        --h1-font-size: 3.2rem;
+        --h2-font-size: 2.2rem;
+        --h3-font-size: 1.8rem;
+        --text-font-size: 1.5rem;
+        --small-font-size: 1.3rem;
+        --smaller-font-size: 1.1rem;
+    }
+
+    section.recipe {
+        margin: 8rem 20rem;
+        padding: 2.5rem;
+    }
+}
+
+/* Pantallas pequeñas (móviles en landscape, entre 576px y 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    :root {
+        --biggest-font-size: 4rem;
+        --h1-font-size: 2.8rem;
+        --h2-font-size: 2rem;
+        --h3-font-size: 1.6rem;
+        --text-font-size: 1.4rem;
+        --small-font-size: 1.2rem;
+        --smaller-font-size: 1rem;
+    }
+
+    section.recipe {
+        margin: 6rem 10rem;
+        padding: 2rem;
+    }
+}
+
+/* Pantallas muy pequeñas (móviles en portrait, menos de 576px) */
+@media (max-width: 575px) {
+    :root {
+        --biggest-font-size: 3.6rem;
+        --h1-font-size: 2.4rem;
+        --h2-font-size: 1.8rem;
+        --h3-font-size: 1.5rem;
+        --text-font-size: 1.3rem;
+        --small-font-size: 1.1rem;
+        --smaller-font-size: 0.9rem;
+    }
+
+    section.recipe {
+        margin: 4rem 2rem;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    ul, ol {
+        margin-left: 2rem;
+    }
+}
+
