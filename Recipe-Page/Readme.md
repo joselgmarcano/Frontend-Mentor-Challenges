@@ -31,7 +31,7 @@ The challenge was to create a recipe page using HTML and CSS in such a way that 
 <h3>Link</h3>
 
 To view the full page:
-<a href='https://codepen.io/joselgmarcano/full/KKLepwL' target='_blank'>AQUÍ</a>
+<a href='frontend-mentor-challenge-recipe-page.netlify.app' target='_blank'>AQUÍ</a>
 
 <h2>My Proccess</h2>
 
