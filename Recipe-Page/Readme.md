@@ -10,13 +10,12 @@ This is a solution to the <a href='https://www.frontendmentor.io/challenges/reci
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-<!--- [My process](#my-process)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)-->
 
 <h2 id='overview'>Overview</h2>
 
@@ -33,24 +32,24 @@ The challenge was to create a recipe page using HTML and CSS in such a way that 
 To view the full page:
 <a href='https://frontend-mentor-challenge-recipe-page.netlify.app/' target='_blank'>AQUÍ</a>
 
-<h2>My Proccess</h2>
+<h2 id='my-process'>My Proccess</h2>
 
-<h3>Built with</h3>
+<h3 id='built-with'>Built with</h3>
 <ul>
   <li>Semantic HTML5 markup</li>
   <li>CSS custom properties</li>
   <li>Mobile-first workflow</li>
 </ul>
 
-<h3>What I learned</h3>
+<h3 id='what-i-learned'>What I learned</h3>
 
 One of the most interesting activities that came my way in this challenge was adding CSS without any guidance or help. These types of projects help me have more creativity when applying styles to a website. This little challenge helped me better understand tables in HTML and I also learned how to add style to tables, something that I had not practiced until now.
 
-<h3>Continued development</h3>
+<h3 id='continued-development'>Continued development</h3>
 
 For future projects I want to go a little deeper into the design of tables in HTML and CSS, to have more practice on the subject. I also want to delve deeper into CSS.
 
-<h3>Useful resources</h3>
+<h3 id='useful-resources'>Useful resources</h3>
 <p>The resources used for this project were:</p>
 <ul>
   <li>
@@ -61,7 +60,7 @@ For future projects I want to go a little deeper into the design of tables in HT
   </li>
 </ul>
 
-<h2>Author</h2>
+<h2 id='author'>Author</h2>
 <ul>
 <li>Name: José Luis Gómez Marcano</li>
 <li>Website: In Contruction</li>
